@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>计算机技术发展年表</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #000000;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            padding: 20px;
+            min-height: 1080px;
+            width: 1920px;
+        }
+        .container {
+            width: 1880px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 12px;
+        }
+        .tech-item {
+            background: #181D28;
+            padding: 10px;
+            border-left: 2px solid #2A3A4F;
+            border-radius: 3px;
+            transition: transform 0.15s;
+        }
+        .tech-item:hover { transform: translateY(-1px); }
+        .keyword-row {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+        .keyword {
+            color: #7EB1C1;
+            font-size: 0.92em;
+            font-weight: 500;
+        }
+        .year {
+            color: #5E8C9E;
+            font-size: 0.82em;
+            opacity: 0.9;
+        }
+        .description {
+            color: #7EB1C1;
+            font-size: 0.85em;
+            line-height: 1.35;
+            opacity: 0.85;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">ICMP</span><span class="year">1981</span></div><div class="description">传递网络控制与错误消息</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">IPv4</span><span class="year">1981</span></div><div class="description">定义互联网设备32位地址分配规则</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">MAC地址</span><span class="year">1980s</span></div><div class="description">唯一标识网络设备的物理地址</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Firewall</span><span class="year">1980s</span></div><div class="description">过滤非法流量保护网络安全</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">OSI模型</span><span class="year">1984</span></div><div class="description">分层定义网络通信协议标准</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">SNMP</span><span class="year">1988</span></div><div class="description">简单网络管理协议监控设备状态</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">BGP</span><span class="year">1989</span></div><div class="description">自治系统间动态路由信息交换</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">ARPANET</span><span class="year">1969</span></div><div class="description">实现分布式网络通信，奠定互联网基础</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">UNIX</span><span class="year">1969</span></div><div class="description">提供多用户、多任务操作系统框架</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Ethernet</span><span class="year">1973</span></div><div class="description">解决局域网内设备高效通信问题</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">TCP/IP</span><span class="year">1983</span></div><div class="description">统一异构网络间的数据传输协议</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">DNS</span><span class="year">1983</span></div><div class="description">将域名转换为IP地址，简化网络访问</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">FTP</span><span class="year">1985</span></div><div class="description">实现跨平台文件传输与共享</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">HTTP</span><span class="year">1989</span></div><div class="description">规范客户端与服务器间的超文本传输</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">HTML</span><span class="year">1991</span></div><div class="description">标准化网页内容的结构与展示</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Linux</span><span class="year">1991</span></div><div class="description">提供开源操作系统内核与生态</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">DHCP</span><span class="year">1993</span></div><div class="description">自动分配IP地址简化网络配置</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">SSL/TLS</span><span class="year">1995</span></div><div class="description">加密网络通信保障数据传输安全</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Java</span><span class="year">1995</span></div><div class="description">通过“一次编写，到处运行”跨平台兼容</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">JavaScript</span><span class="year">1995</span></div><div class="description">支持网页动态交互与前端逻辑</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">VoIP</span><span class="year">1995</span></div><div class="description">通过互联网传输语音降低通信成本</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">VPN</span><span class="year">1996</span></div><div class="description">加密隧道保护远程访问隐私性</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Wi-Fi</span><span class="year">1997</span></div><div class="description">实现无线局域网高速接入</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">XML</span><span class="year">1998</span></div><div class="description">结构化数据标记与跨平台交换格式</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">IPv6</span><span class="year">1998</span></div><div class="description">扩展地址空间解决IPv4耗尽问题</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">CDN</span><span class="year">1990s</span></div><div class="description">加速全球内容分发减少延迟</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">REST</span><span class="year">2000</span></div><div class="description">轻量级API设计规范提升系统扩展性</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Git</span><span class="year">2005</span></div><div class="description">分布式版本控制协同开发代码</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">AJAX</span><span class="year">2005</span></div><div class="description">异步加载数据避免网页整体刷新</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">云计算</span><span class="year">2006</span></div><div class="description">按需提供可扩展的计算资源</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">区块链</span><span class="year">2008</span></div><div class="description">去中心化账本确保交易不可篡改</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Bitcoin</span><span class="year">2009</span></div><div class="description">实现点对点电子现金系统</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">NoSQL</span><span class="year">2009</span></div><div class="description">非关系型数据库支持高扩展存储</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">HTTPS</span><span class="year">2000s</span></div><div class="description">通过加密传输增强HTTP安全性</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">RSA算法</span><span class="year">2000s</span></div><div class="description">非对称加密保障数据安全传输</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">SSD</span><span class="year">2000s</span></div><div class="description">用闪存替代机械硬盘提升存储速度</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Hadoop</span><span class="year">2011</span></div><div class="description">分布式存储与计算大规模数据</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">SDN</span><span class="year">2011</span></div><div class="description">软件定义网络实现灵活流量管理</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Docker</span><span class="year">2013</span></div><div class="description">容器技术实现应用环境隔离与移植</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">Kubernetes</span><span class="year">2014</span></div><div class="description">自动化容器化应用编排与管理</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">WebAssembly</span><span class="year">2017</span></div><div class="description">提升网页端高性能代码执行效率</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">GPT</span><span class="year">2018</span></div><div class="description">生成式预训练模型处理自然语言任务</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">5G</span><span class="year">2019</span></div><div class="description">提供高带宽、低延迟移动通信</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">大数据</span><span class="year">2010s</span></div><div class="description">处理海量、高增长、多样化数据集</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">边缘计算</span><span class="year">2010s</span></div><div class="description">减少延迟并提高边缘设备响应速度</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">RISC-V</span><span class="year">2010s</span></div><div class="description">开源指令集降低芯片设计门槛</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">SD-WAN</span><span class="year">2010s</span></div><div class="description">软件定义广域网优化流量管理</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">量子计算</span><span class="year">2020s</span></div><div class="description">利用量子位加速复杂计算问题求解</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">AIoT</span><span class="year">2020s</span></div><div class="description">结合AI与物联网实现智能设备联动</div></div>
+            <div class="tech-item"><div class="keyword-row"><span class="keyword">元宇宙</span><span class="year">2021</span></div><div class="description">构建虚拟与现实融合的沉浸式空间</div></div>
+        </div>
+    </div>
+</body>
+</html>
